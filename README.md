@@ -7,3 +7,5 @@
 npm install cypress --save-dev
 <br>
 npm install cypress-cucumber-preprocessor --save-dev
+<br>
+npm install -D cypress-xpath
