@@ -69,11 +69,6 @@ describe('template spec', () => {
       cy.get('@postProduct').then((res) => {
         console.log("RESSSS0", res)
         expect(res.status).equal(200);
-        // expect(res.success).equal(true);
-        // expect(res.body.id).equal(9);
-        // expect(res.body.reason).equal("Product was updated successful");
-        // expect(res.body.imageId).equal("custom_image_Roboto_2746d12f-d50a-44b2-abdd-f9c3b795c763");
-        // expect(res.body.imageColor).equal("#33363D");
       })
 
       cy.request({
